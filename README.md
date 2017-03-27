@@ -17,9 +17,13 @@ This script will turn your homepage into a Matrix with custom, ASCII-Art styled 
  
  Thats it!
  
+ <hr>
+ 
  A sample index.html is <a href="https://github.com/NLDev/matrixjs/blob/master/index.html">here</a>.
  
- Note: There is also a Minified version of the script! Just use `matrix.min.js`
+ <b>Note</b>: There is also a Minified version of the script! Just use `matrix.min.js`
+ 
+ <hr>
  
  ## Live Demos:
  
