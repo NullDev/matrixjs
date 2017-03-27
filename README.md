@@ -42,3 +42,8 @@ This script will turn your homepage into a Matrix with custom, ASCII-Art styled 
  NullDev:<br>
  https://nulldev.org/free/matrixjs/
  
+ <hr>
+ 
+## Known issues:
+
+- It isn't really optimized for mobile devices...
