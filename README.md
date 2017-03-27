@@ -5,7 +5,9 @@ This script will turn your homepage into a Matrix with custom, ASCII-Art styled 
 ### How-To:
 
 - Include matrix.js in your HTML Code:<br>
- `<script src="matrix.js"></script>`<br><br>
+ ```html
+ <script src="matrix.js"></script>
+```
 - Change the body style:<br>
 ```html
 <style type="text/css">
@@ -13,14 +15,14 @@ This script will turn your homepage into a Matrix with custom, ASCII-Art styled 
 </style>
 ```
 - Set the body like this:<br>
- ```html
+```html
  <body bgcolor="#000" onload="matrix('YOUR TEXT')" onresize="init()">
- ```
+```
 &nbsp;&nbsp;Where "YOUR TEXT" is replaced by the text you want to output<br><br>
 - Finally, set the main element inside the body:<br>
- ```html
+```html
  <canvas width="16" height="16" id="mainCanvas"></canvas>
-  ```
+```
  
  Thats it!
  
