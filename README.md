@@ -23,9 +23,9 @@ This script will turn your homepage into a Matrix with custom, ASCII-Art styled 
  
  ## Live Demos:
  
- Github:
- 
- 
- NullDev:
+ Github:<br>
+ https://nldev.github.io/matrixjs/
+ <br><br>
+ NullDev:<br>
  https://nulldev.org/free/matrixjs/
  
