@@ -24,7 +24,7 @@ This script will turn your homepage into a Matrix with custom, ASCII-Art styled 
 <canvas width="16" height="16" id="mainCanvas"></canvas>
 ```
  
- <b>Thats it!<br>
+ <b>Thats it!</b>
  
  <hr>
  
