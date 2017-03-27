@@ -25,12 +25,7 @@ var letters = "アイウエオカキクケコサシスセソタチツテトナ�
     minWidth, minHeight,
     windowWidth, windowHeight,
     canvas,
-    charText = ["",
-                "",
-                "",
-                "",
-                ""
-    ],
+    charText = ["", "", "", "", ""],
     mDropsCount   = "mDropsCount",   mActive     = "mActive",     mType       = "mType",       mPauseValue      = "mPauseValue",
     mCurrentPause = "mCurrentPause", mGreen      = "mGreen",      mWhite      = "mWhite",      mSymbol          = "mSymbol",
     mText         = "mText",         mTextActive = "mTextActive", mColumnUsed = "mColumnUsed", mColumnUsedCount = "mColumnUsedCount", mFade = "mFade";
