@@ -18,7 +18,7 @@ This script will turn your homepage into a Matrix with custom, ASCII-Art styled 
 ```html
 <body bgcolor="#000" onload="matrix('YOUR TEXT')" onresize="init()">
 ```
-&nbsp;&nbsp;Where <br>you</br> need to replace "YOUR TEXT" by the text you want to output<br><br>
+&nbsp;&nbsp;Where <b>you</b> need to replace "YOUR TEXT" by the text you want to output<br><br>
 - Finally, set the main element inside the body:<br>
 ```html
 <canvas width="16" height="16" id="mainCanvas"></canvas>
