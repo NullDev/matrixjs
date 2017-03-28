@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="icon" type="image/png" href="https://nulldev.org/img/favicon.png">
+		<title>Matrix.Js Demo | NullDev</title>
+		<script src="../matrix.js"></script>
+		<style type="text/css">
+			body  { min-width:1024px;min-height:400px;width:100vw;height:100vh;margin:0;                                      }
+			.main { position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%); }
+			.imgl { padding-left:50px;                                                                                        }
+			.foot { position:absolute;width:100vw;background-color:#fff;bottom:0;text-align:center;                           }
+			.ftrc { padding-top:1px;padding-bottom:1px;                                                                       }
+			#infp { color:#FFF;padding-top:10px;                                                                              }
+			#err  { color:red;display:none;                                                                                   }
+		</style>
+	</head>
+	<body bgcolor="#000" onresize="location.reload();">
+		<div id="show" class="main">
+			<img class="imgl" src="https://nulldev.org/img/logo.png" alt="logo" height="100" width="100" />
+			<p id="infp">Enter Text:</p>
+			<input placeholder="Your Text..." id="in"></input>
+			<button id="btn" onclick="exec();">Start!</button>
+			<p id="err">Don't leave blank!</p>
+		</div>
+        <canvas width="16" height="16" id="mainCanvas"></canvas>
+        <div class="foot">
+        	<div class="ftrc">
+        		<p>>>> <a href="javascript:location.reload();">RELOAD</a> <<<</p>
+        	</div>
+        </div>
+	</body>
+	<script type="text/javascript">
+		var _in = null;
+		function exec(){
+			_in = document.getElementById('in').value;
+			if (_in.replace(/\s/g, '') == "" || _in == null) document.getElementById('err').style.display = "block";
+			else{
+				document.getElementById('show').style.display = "none";
+				matrix(_in);
+			}
+		}
+		document.getElementById("in").addEventListener("keyup", function(event) {
+      event.preventDefault();
+      if (event.keyCode == 13) document.getElementById("btn").click();
+		});
+	</script>
+</html>
